@@ -49,6 +49,30 @@ section{
     font-size: 3rem;
 }
 
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a{
+  text-decoration: none;
+  color:var(--main-color);
+  transition: 1.4s ease-in-out;
+}
+
+ul li a:hover{
+  color: #000000;
+}
+
 .btn{
     display: inline-block;
     padding:.9rem 1.5rem;
@@ -167,7 +191,13 @@ section{
 
 /* ABOUT SECTION */
 
-.About{
+.section{
   width: 100%;
   padding: 70px 0;
+}
+
+.About{
+  text-align: center;
+  font-size: 50px;
+  color:var(--main-color);
 }
