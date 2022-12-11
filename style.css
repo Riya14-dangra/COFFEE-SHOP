@@ -165,51 +165,10 @@ section{
     transform: translateY(-2rem);
 }
 
-.row{
-    padding-top: 100px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
 
-.fa-solid {
-    color: yellow;
-}
+/* ABOUT SECTION */
 
-.col-3{
-    flex-basis: 30%;
-    min-width: 250px;
-    margin-bottom: 0px;
-    background-color: gray;
-    padding: 20px 10%;
-    box-shadow: 5px 10px #443;
-}
-
-.col-3:hover{
-    transform: scale(1.1);
-}
-.col-3 img{
-    width: 100%;
-}
-
-.col-3 p{
-    font-size: 1.2rem;
-    font-weight: 700;
-}
-
-.col-3 h3{
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-.small-container{
-    max-width: 1080px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
-#review{
-    width: 100%;
-    height: 100vh;
+.About{
+  width: 100%;
+  padding: 70px 0;
 }
