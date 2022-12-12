@@ -91,6 +91,7 @@ section{
     margin:0 1rem;
     font-size: 1.7rem;
     color:var(--main-color);
+    position: relative;
 }
 
 .header .btn{
@@ -212,4 +213,19 @@ section{
 #review{
     width: 100%;
     height: 100vh;
+}
+
+.header .navbar a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #455;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.header .navbar a:hover::after{
+    width: 100%;
 }
