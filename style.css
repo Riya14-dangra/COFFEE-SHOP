@@ -166,17 +166,9 @@ section{
     transform: translateY(-2rem);
 }
 
-.row{
-    padding-top: 100px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
 
-.fa-solid {
-    color: yellow;
-}
+/* ABOUT SECTION */
+
 
 .col-3{
     flex-basis: 30%;
