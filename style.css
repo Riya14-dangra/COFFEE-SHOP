@@ -209,6 +209,6 @@ ul li a:hover{
 .about-sec{
   text-align: center;
   font-size: 50px;
-  font-family: sans-serif;
+  font-family:serif;
   color:var(--main-color);
 }
