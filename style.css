@@ -198,6 +198,17 @@ ul li a:hover{
 
 .About{
   text-align: center;
+  font-size: 10px;
+  color:var(--main-color);
+}
+
+.para{
+  text-align: right;
+}
+
+.about-sec{
+  text-align: center;
   font-size: 50px;
+  font-family: sans-serif;
   color:var(--main-color);
 }
