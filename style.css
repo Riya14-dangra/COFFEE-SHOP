@@ -49,6 +49,30 @@ section{
     font-size: 3rem;
 }
 
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a{
+  text-decoration: none;
+  color:var(--main-color);
+  transition: 1.4s ease-in-out;
+}
+
+ul li a:hover{
+  color: #000000;
+}
+
 .btn{
     display: inline-block;
     padding:.9rem 1.5rem;
@@ -169,12 +193,33 @@ section{
 
 /* ABOUT SECTION */
 
+.section{
+  width: 100%;
+  padding: 70px 0;
+}
+
+.About{
+  text-align: center;
+  font-size: 10px;
+  color:var(--main-color);
+}
+
+.para{
+  text-align: right;
+}
+
+.about-sec{
+  text-align: center;
+  font-size: 50px;
+  font-family:sans-serif;
+  color:var(--main-color);
+}
 
 .col-3{
     flex-basis: 30%;
     min-width: 250px;
     margin-bottom: 0px;
-    background-color: gray;
+    background-color: #000000;
     padding: 20px 10%;
     box-shadow: 5px 10px #443;
 }
@@ -220,56 +265,4 @@ section{
 
 .header .navbar a:hover::after{
     width: 100%;
-}
-.menu{
-    background: url(../image/menu-bg.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.menu .box-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap:2rem;
-    justify-content: center;
-}
-
-.menu .box-container .box{
-    flex:1 1 42rem;
-    padding:2rem;
-    border:var(--border);
-    border-radius: var(--border-radius);
-    display: flex;
-    align-items: center;
-    gap:1.5rem;
-    margin-left: 6rem;
-}
-
-.menu .box-container .box:hover{
-    border:var(--border-hover);
-    border-radius: var(--border-radius-hover);
-}
-
-.menu .box-container .box img{
-    height: 8rem;
-    margin-left: -6rem;
-}
-
-.menu .box-container .box .content h3{
-    font-size: 2.2rem;
-    color:var(--main-color);
-    line-height: 1.8;
-}
-
-.menu .box-container .box .content p{
-    font-size: 1.6rem;
-    color:var(--main-color);
-    line-height: 1.8;
-    padding:1rem 0;
-}
-
-.menu .box-container .box .content span{
-    font-size: 2rem;
-    color:var(--main-color);
-    line-height: 1.8;
 }
