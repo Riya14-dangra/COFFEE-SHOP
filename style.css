@@ -205,7 +205,9 @@ ul li a:hover{
 }
 
 .para{
-  text-align: right;
+  text-align: center;
+  font-size: medium;
+  padding: 5%;
 }
 
 .about-sec{
