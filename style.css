@@ -292,3 +292,52 @@ ul li a:hover {
 .order-form {
   font-size: 13px;
 }
+
+
+.list{
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color:black;
+    opacity: 0.85;
+    
+width: 100%;
+}
+.social{
+
+    font-size:26px;
+    color:black;
+    display: inline-block;
+    
+    
+    text-shadow: 0 0 4px white,
+    0 0 10px white,
+    0 0 30px white,
+    0 0 50px white,
+    0 0 70px white,
+    0 0 90px white;
+   border:1px;
+   border-radius: 8px;
+   margin-top: 5px;
+   
+   margin-right: 780px;
+
+
+}
+.qh{
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline   black;
+    position: sticky;
+    text-shadow: 0 0 4px white,
+    0 0 10px white,
+    0 0 10px white,
+    0 0 10px white,
+    0 0 30px white,
+    0 0 30px white;
+    
+}
+
+
+.h:hover{
+    color: #fff;
+}
