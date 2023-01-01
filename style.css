@@ -209,10 +209,7 @@ ul li a:hover {
   color: var(--main-color);
 }
 
-.para {
-  text-align: right;
-  padding-left: 50px 50px 50px 50px;
-  font-size: 12px;
+
 }
 
 .about-sec {
