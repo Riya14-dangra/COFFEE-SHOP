@@ -211,6 +211,8 @@ ul li a:hover {
 
 .para {
   text-align: right;
+  padding-left: 50px 50px 50px 50px;
+  font-size: 12px;
 }
 
 .about-sec {
