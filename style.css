@@ -255,7 +255,15 @@ section{
   gap:1.5rem;
   margin-left: 6rem;
 }
+.menu .box-container .box:hover{
+  border:var(--border-hover);
+  border-radius: var(--border-radius-hover);
+}
 
+.menu .box-container .box img{
+  height: 8rem;
+  margin-left: -6rem;
+}
 
 
 .menu .box-container .box .content h3{
