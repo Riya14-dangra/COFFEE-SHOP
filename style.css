@@ -232,3 +232,210 @@ section{
     padding-top: 1rem;
     color:var(--main-color);
 }
+.menu{
+  background: url(../image/menu-bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.menu .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:2rem;
+  justify-content: center;
+}
+
+.menu .box-container .box{
+  flex:1 1 42rem;
+  padding:2rem;
+  border:var(--border);
+  border-radius: var(--border-radius);
+  display: flex;
+  align-items: center;
+  gap:1.5rem;
+  margin-left: 6rem;
+}
+.menu .box-container .box:hover{
+  border:var(--border-hover);
+  border-radius: var(--border-radius-hover);
+}
+
+.menu .box-container .box img{
+  height: 8rem;
+  margin-left: -6rem;
+}
+
+
+.menu .box-container .box .content h3{
+  font-size: 2.2rem;
+  color:var(--main-color);
+  line-height: 1.8;
+}
+
+.menu .box-container .box .content p{
+  font-size: 1.6rem;
+  color:var(--main-color);
+  line-height: 1.8;
+  padding:1rem 0;
+}
+
+.menu .box-container .box .content span{
+  font-size: 2rem;
+  color:var(--main-color);
+  line-height: 1.8;
+}
+
+.review .review-slider{
+  padding:7rem 0;
+}
+
+.review .review-slider .box{
+  border:var(--border);
+  border-radius: var(--border-radius);
+  text-align: center;
+  position: relative;
+  z-index: 0;
+  padding:2rem;
+}
+
+.review .review-slider .box .fa-quote-left{
+  position: absolute;
+  top:2rem; left: 2.5rem;
+  font-size: 6rem;
+  color:#ccc;
+  z-index: -1;
+}
+
+.review .review-slider .box .fa-quote-right{
+  position: absolute;
+  bottom:2rem; right: 2.5rem;
+  font-size: 6rem;
+  color:#ccc;
+  z-index: -1;
+}
+
+.review .review-slider .box:hover .fa-quote-left{
+  top:-6.5rem;
+}
+
+.review .review-slider .box:hover .fa-quote-right{
+  bottom:-6.5rem;
+}
+
+.review .review-slider .box img{
+  height:7rem;
+  width:7rem;
+  border-radius: 50%;
+  margin-bottom: .7rem;
+}
+
+.review .review-slider .box .stars{
+  padding:.5rem 0;
+}
+
+.review .review-slider .box .stars i{
+  font-size: 1.7rem;
+  color:var(--main-color);
+}
+
+.review .review-slider .box p{
+  font-size: 1.6rem;
+  color:var(--main-color);
+  padding:1rem 0;
+  line-height: 1.8;
+}
+
+.review .review-slider .box h3{
+  font-size: 2.2rem;
+  color:var(--main-color);
+  line-height: 1.8;
+}
+
+.review .review-slider .box span{
+  font-size: 1.5rem;
+  color:var(--main-color);
+}
+
+.swiper-pagination-bullet{
+  height:1.5rem;
+  width:1.5rem;
+  border-radius: 0;
+}
+
+.swiper-pagination-bullet-active{
+  background:var(--main-color);
+}
+
+.book{
+  background:url(../image/book-bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.book form{
+  margin:0 auto 2rem auto;
+  max-width: 60rem;
+  border-radius: var(--border-radius-hover);
+  padding:3rem;
+  border:var(--border);
+}
+
+.book form .box{
+  width:100%;
+  padding:1rem 1.2rem;
+  border-radius: .5rem;
+  font-size: 1.6rem;
+  background:none;
+  text-transform: none;
+  color:var(--main-color);
+  border:var(--border);
+  margin:.7rem 0;
+}
+
+.book form .box:focus{
+  border:var(--border-hover);
+}
+
+.book form textarea{
+  height:15rem;
+  resize: none;
+}
+.footer .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+  gap:1.5rem;
+}
+
+.footer .box-container .box h3{
+  font-size: 2.5rem;
+  padding:1rem 0;
+  color:var(--main-color);
+}
+
+.footer .box-container .box a{
+  display: block;
+  font-size: 1.5rem;
+  padding:1rem 0;
+  color:var(--main-color);
+}
+
+.footer .box-container .box a i{
+  padding-right: .5rem;
+}
+
+.footer .box-container .box a:hover i{
+  padding-right: 2rem;
+}
+
+.footer .credit{
+  text-align: center;
+  font-size: 2rem;
+  padding:2rem 1rem;
+  margin-top: 1rem;
+  color:var(--main-color);
+}
+
+.footer .credit span{
+  border-bottom: var(--border-hover);
+}
+
