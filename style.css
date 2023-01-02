@@ -133,7 +133,14 @@ section{
   height:35rem;
   animation: float 4s linear infinite;
 }
-
+@keyframes float{
+  0%, 100%{
+      transform: translateY(0rem);
+  }
+  50%{
+      transform: translateY(-7rem);
+  }
+}
 
 
 .home .row .content h3{
@@ -154,3 +161,6 @@ section{
   margin-top: 5rem;
 } 
 
+.home .image-slider img:hover{
+  transform: translateY(-2rem);
+}
