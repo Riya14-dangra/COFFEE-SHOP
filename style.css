@@ -365,3 +365,38 @@ section{
 .swiper-pagination-bullet-active{
   background:var(--main-color);
 }
+
+.book{
+  background:url(../image/book-bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.book form{
+  margin:0 auto 2rem auto;
+  max-width: 60rem;
+  border-radius: var(--border-radius-hover);
+  padding:3rem;
+  border:var(--border);
+}
+
+.book form .box{
+  width:100%;
+  padding:1rem 1.2rem;
+  border-radius: .5rem;
+  font-size: 1.6rem;
+  background:none;
+  text-transform: none;
+  color:var(--main-color);
+  border:var(--border);
+  margin:.7rem 0;
+}
+
+.book form .box:focus{
+  border:var(--border-hover);
+}
+
+.book form textarea{
+  height:15rem;
+  resize: none;
+}
