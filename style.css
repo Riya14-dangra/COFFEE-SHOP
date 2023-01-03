@@ -232,3 +232,65 @@ section{
     padding-top: 1rem;
     color:var(--main-color);
 }
+.inputBox{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    width: 378px;
+    margin-left: 60px;
+    background-color:white;
+}
+.submitbtn{
+    margin-left:230px;
+    background-color:white;
+}
+
+#booking{
+    border: 2px solid #443;
+    border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+    padding: 12px;
+    width: 552px;
+    margin: 0px 0px 80px 350px;
+}
+#booking:hover{
+    background-color:#2f1313;
+}
+.footer{
+    background-color:black;
+    font-size: 20px;
+}
+.sym {
+    padding:10px;
+    font-size:35px;
+    color:white;
+    background-color:black;
+    border:1px solid grey;
+    border-radius:50px;
+    margin-left:25px;
+
+}
+.share {
+    margin-left:420px;
+    padding-bottom:20px;
+}
+.links a{
+    padding-left:20px;
+    color:white;
+}
+.links{
+    margin-left:360px;  
+}
+.sym:hover{
+    background-color:grey;
+}
+.credit{
+    font-size:12px;
+    padding: 20px 0px 0px 460px;
+    margin:20px;
+    color:white;
+    border-top:1px solid grey;
+}
+
+
