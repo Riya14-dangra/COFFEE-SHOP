@@ -292,5 +292,23 @@ section{
     color:white;
     border-top:1px solid grey;
 }
+    
+.header .navbar a{
+    position: relative;
+}
 
+.header .navbar a::after{
+    content: ' ';
+    width: 0;
+    height: 3px;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.header .navbar a:hover::after{
+    width: 100%;
+}
 
