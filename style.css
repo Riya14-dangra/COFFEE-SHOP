@@ -258,7 +258,7 @@ section{
     background-color:#2f1313;
 }
 .footer{
-    background: linear-gradient(black,grey);
+    background: linear-gradient(#858a94,#a7afb8,#c7c7c7,grey,black);
     font-size: 15px;
 }
 .sym {
@@ -273,11 +273,11 @@ section{
 }
 .share {
     margin-left:420px;
-    padding-bottom:20px;
+    padding-bottom:10px;
 }
 .links a{
     padding-left:20px;
-    color:white;
+    color:black;
 }
 .links{
     margin-left:360px;  
@@ -289,7 +289,7 @@ section{
     font-size:13px;
     padding: 10px 32%;
     margin:20px;
-    color:white;
+    color:black;
     border-top:1px solid grey;
 }
     
