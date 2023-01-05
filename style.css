@@ -342,19 +342,7 @@ section{
     padding: 1rem 0;
   }
   
-  .footer .box-container .box a i {
-    color: black;
-    padding-right: .5rem;
-  }
-  
-  .footer .box-container .box a:hover {
-    color:black;
-  }
-  
-  .footer .box-container .box a:hover i {
-    padding-right: 2rem;
-  }
-  
+ 
   .footer .credit {
     text-align: center;
     margin-top: 2.5rem;
@@ -362,5 +350,36 @@ section{
     padding-top: 2.5rem;
     font-size: 2rem;
     color: #fff;
+  }
+  
+  
+  .footer .box {
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  
+  .footer  .box a i {
+    color: black;
+    padding-right: .5rem;
+  }
+  
+  .footer  .box a:hover {
+    color:black;
+  }
+  
+  .footer r .box a:hover i {
+    padding-right: 2rem;
+  }
+
+  .footer  .box a {
+  
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 1rem;
   }
   
