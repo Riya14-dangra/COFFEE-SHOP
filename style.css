@@ -342,17 +342,11 @@ section{
     padding: 1rem 0;
   }
   
- 
-  .footer .credit {
-    text-align: center;
-    margin-top: 2.5rem;
-    padding: 1rem;
-    padding-top: 2.5rem;
-    font-size: 2rem;
-    color: #fff;
+  .footer .box .last{
+    background: #443;
+    padding: 10px;
   }
-  
-  
+
   .footer .box {
     text-align: center;
     margin-top: 2.5rem;
